@@ -1,11 +1,10 @@
-import React from "react";
-import { navLinks } from "../constants";
+import { navLinks } from '../constants';
 
 const Navbar = () => {
   return (
     <header>
       <nav>
-        <img src="/logo.svg" alt="apple-logo" />
+        <img src="/logo.svg" alt="Apple Logo" />
         <ul>
           {navLinks.map(({ label }) => (
             <li key={label}>
